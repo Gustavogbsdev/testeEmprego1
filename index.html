@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Frontend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="navbar.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            </div>
+            <img src="Logo Imovel Guide.png" alt="Imagem da Logo." height="150" width="150">
+            <div class="links">
+                <ul class="nav-list">
+                    <li><a href="">Condomínios</a></li>
+                    <li><a href="">Fórum</a></li>
+                    <li><a href="">Guia</a></li>
+                    <li><a href="">Artigos</a></li>
+                    <li><a href="">Ferramentas</a></li>
+                </ul>
+            </div>
+            <div class="btnCadastro">
+                <button href="#" class="login">Login</button>
+                <button href="#" class="cadastro">CADASTRE-SE</button>
+            </div>
+
+        </nav>
+    </header>
+
+
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+<div class="container">
+<div id="btnVerTel" class="btnVerTel" name="btnVerTel">
+    <img id="fotoCorretorBlur1" src="./blur image gusta.png" alt="">
+    <img id="fotoCorretor1" src="./277249898_2252284208252188_1233778908884724749_n.jpg" alt="">
+    <p name="nomeCorretor1" id="nomeCorretor1" class="nomeCorretor1">Nome Corretor</p>
+    <p name="pontosCorretor1" id="pontosCorretor1" class="pontosCorretor1">3.000 pontos</p>
+    <div class="btn" id="btn" data-cn="telefone">ver telefone</div>
+
+    <img id="fotoCorretorBlur2" src="./blur image foxy.png" alt="">
+    <img id="fotoCorretor2" src="./WhatsApp Image 2023-11-12 at 22.50.56.jpeg" alt="">
+    <p name="nomeCorretor2" id="nomeCorretor2" class="nomeCorretor">Nome Corretora</p>
+    <p name="pontosCorretor2" id="pontosCorretor2" class="pontosCorretor2">1.260 pontos</p>
+    <div class="btn2" id="btn2" data-cn="telefone">ver telefone</div>
+</div>
+
+<div name="mandeUmaMensagem" id="msg" class="msg">
+    <form class="msg" id="meuForm">
+        <h1 id="MandeMensagem">Mande uma mensagem:</h1>
+        <input type="text" autocomplete="off" name="cpf" id="cpf" placeholder="Digite seu CPF" required><br><br>
+
+        <input type="tel", autocomplete="off" name="celular" id="celular" placeholder="Digite seu Telefone" required><br><br>
+
+        <textarea wrap="hard" autocomplete="off" placeholder="Digite o assunto" style="width: 26em" id="mensagem" name="mensagem" rows="6" minlength="2" required></textarea><br><br>
+
+        <button class="botaoEnviar" id="botaoEnviar" type="submit">Enviar Mensagem</button>
+    </form>
+</div>
+    <div name="regraDeTres" class="regraDeTres" id="regraDeTres">
+        <h2>Regra de 3</h2>
+        <div class="input-group">
+            <input type="number" id="campo1" placeholder="A">
+            <span>--------</span>
+            <input type="number" id="campo2" placeholder="B">
+        </div>
+
+        <div class="input-group">
+            <input type="number" id="campo3" placeholder="C">
+            <span>--------</span>
+            <p id="resultado" name="resultado">Resultado</p>
+        </div>
+        <button id="calculate">
+            Calcular
+        </button>
+    </div>
+
+    
+    </div>
+
+    <div class="imagemModal" name="imagemModal" id="imagemModal">
+        <span class="fechar">&times;</span>
+        <img class="modal-conteudo" src="./empreendimento-jardimourofino-riodaspedras-fachada-2.webp" alt="Imagem">
+        <button class="abrir-modal">ABRIR IMAGEM NO MODAL</button>
+
+
+    </div>
+
+<script src="./main.js"></script>
+
+</body>
+</html>
